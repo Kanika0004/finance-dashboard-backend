@@ -42,13 +42,13 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(PORT, () => {
-  console.log(`\n🚀 Finance Dashboard API running on http://localhost:${PORT}`);
-  console.log(`📄 Health check: GET http://localhost:${PORT}/api/health`);
+server.listen(PORT, "0.0.0.0", () => {
+  console.log(`🚀 Finance Dashboard API running on port ${PORT}`);
+  console.log(`📄 Health check: /api/health`);
   console.log(`\nDefault accounts (after SEED=true):`);
-  console.log(`  admin@finance.com  / Admin@123`);
+  console.log(`  admin@finance.com / Admin@123`);
   console.log(`  analyst@finance.com / Analyst@123`);
-  console.log(`  viewer@finance.com  / Viewer@123\n`);
+  console.log(`  viewer@finance.com / Viewer@123\n`);
 });
 
 module.exports = server;
