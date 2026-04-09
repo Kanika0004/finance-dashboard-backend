@@ -8,7 +8,7 @@ const { router } = require("./router");
 const { initializeDatabase } = require("./database/db");
 const { seed } = require("./utils/seed");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 // Initialize DB before starting server
 initializeDatabase();
