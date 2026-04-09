@@ -4,6 +4,24 @@ A production-quality backend for a multi-role finance dashboard system, built wi
 
 ---
 
+## 🚀 Deployment
+
+Backend API is deployed on Railway:
+
+🔗 https://finance-dashboard-backend-production-9c15.up.railway.app
+
+### Health Check Endpoint
+GET /api/health
+
+Example:
+https://finance-dashboard-backend-production-9c15.up.railway.app/api/health
+
+
+## ⚠️ Note
+The backend is hosted on Railway (free tier). In case the service is temporarily unavailable due to cold starts or DNS delays, please run the project locally.
+
+---
+
 ## Tech Stack
 
 | Concern | Choice | Reason |
