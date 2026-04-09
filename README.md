@@ -1,6 +1,6 @@
 # Finance Dashboard Backend API
 
-A production-quality backend for a multi-role finance dashboard system, built with **pure Node.js** — zero external runtime dependencies.
+A production-quality backend for a multi-role finance dashboard system, built with **pure Node.js** - zero external runtime dependencies.
 
 ---
 
